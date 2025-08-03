@@ -1,0 +1,730 @@
+.navbar {
+      padding: 2rem 0;
+    }
+    .nav-link {
+      font-weight: 500;
+      margin: 0 0.8rem;
+      color: black;
+    }
+    .nav-link.active {
+      color: #ad9263 !important;
+    }
+    .navbar-nav .nav-link:hover {
+  color: #ad9263 !important;
+}
+a:hover{
+  color: inherit;
+}
+.btn:hover{
+color: #ad9263;
+}
+
+    .navbar-brand {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    .sub-text {
+      font-size: 0.85rem;
+      color: #383838;
+      margin-top: -10px;
+    }
+    .search-icon {
+      font-size: 1.2rem;
+      cursor: pointer;
+    }
+    /* Show dropdown on hover */
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; /* Optional: align perfectly */
+  color: inherit;
+}
+
+/* Optional: add pointer for clarity */
+.nav-item.dropdown > .nav-link {
+  cursor: pointer;
+}
+.dropdown-item{
+      color: #f4f4f4;
+
+}
+.icon-custom{
+    color: #ad9263;
+}
+.img-hover:hover {
+    filter: brightness(60%); /* dims the image */
+    transition: 0.3s ease;}
+    .business:hover{
+  color: #ad9263 !important;
+    }
+    .footer-link:hover{
+      font-weight: 700;
+color: white;
+    }
+    .sticky-icon-links{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+    .sticky-icon-links-icon:hover{
+       transform: scale(1.1);
+  z-index: 1;
+    }
+    .search-icon{
+      margin-left: -175px;
+      margin-top: 3rem;
+    }
+    @media (min-width: 768px){
+  .custom-blog-width {
+    width: 300px !important;
+  }
+}
+@media (min-width: 992px) {
+  .custom-blog-width {
+    width: 539px !important;
+  }
+}
+.sticky-icon-links{
+  top: 47%;
+  right: 0;
+  transform: translateY(-50%);
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: absolute; /* Add this if you're positioning absolutely */
+}
+.custom-icon-box{
+text-decoration: none;
+  margin-bottom: 0.6rem;
+  width: 64px;
+  height: 64px;
+  background-color: white;
+  color: black;
+  border-radius: 4px 0 0 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sticky-icon-links-icon{
+  font-size: 12px; 
+  font-weight: 700;
+}
+.clr_orng{
+   color: #ad9263;
+}
+.porto{
+  font-size: 5.5rem; 
+  font-weight: 700; 
+  font-family: sans-serif; 
+  letter-spacing: 2.5px; 
+  font-family: EB Garamond;
+}
+.porto-sub{
+  font-size: 1.4rem; 
+  font-weight: 500; 
+  letter-spacing: 1px
+}
+.porto-sub-sub{
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 500;
+}
+.contact-btn{
+  background-color: #ad9263;
+  margin-top: 4rem; 
+  font-size: 1rem; 
+  font-weight: 700; 
+  height: 55px;
+}
+
+.card-title{
+  font-size: 1.3rem; 
+  font-weight: 650;
+}
+.custom-card-title{
+  font-size: 1rem; 
+  font-weight: 650;
+}
+.btn-link{
+  text-decoration: none; 
+  font-weight: 500;
+}
+.card-img-top{
+  height: 100px; width: auto;
+}
+.lobster{
+  font-family: Lobster; 
+}
+.EB{
+ font-family: EB Garamond;
+}
+.quote-p{
+  font-size: 1.5rem;
+}
+.service-heading{
+  font-family: Lobster; 
+  font-size: 2.5rem;
+}
+.founder{
+  color: darkgrey; 
+  margin-top: 2rem;
+}
+.overlay{
+  background-color: rgba(27, 27, 27, 0.9);
+}
+.container-caption{
+  margin-top: 18rem;
+  width: 1050px;
+}
+.testimonial-h2{
+  font-size: 3rem; 
+  font-weight: 700; 
+  font-family: sans-serif; 
+  letter-spacing: 2.5px; 
+  font-family: EB Garamond;
+}
+.comma-pic{
+  color: white; 
+  padding: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.testimonial-clients{
+  font-size: 1.1rem; 
+  font-weight: 500;
+}
+.blockquote{
+  color: rgba(255,255,255,0.8);
+}
+.p{
+  letter-spacing: 1px;
+}
+.background-orng{
+  background-color: #ad9263;
+}
+
+.question-card-h4{
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: rgb(228, 219, 219);
+  font-family: sans-serif;
+  padding-top: 3rem;
+  padding-left: 3rem;
+}
+.question-card-h2{
+  font-size: 2.5rem; 
+  font-weight: 500; 
+  padding-left: 3rem;
+  margin-top: -5px;
+}
+
+.fw-5{
+  font-weight: 500;
+}
+.fw-7{
+  font-weight: 700;
+}
+.fw-4{
+  font-weight: 400;
+}
+.fw-6{
+  font-weight: 600;
+}
+.custom-request-accordion-width{
+  width: 430px; 
+  height: 678px;
+   margin-top: 50rem;
+   border-color: white; 
+   margin-bottom: 7rem; 
+   margin-left: 6rem;
+}
+.request-card-h4{
+  font-size: 1.3rem;
+  font-family: sans-serif; 
+  padding-top: 3rem;
+}
+.request-card-h2{
+  font-size: 2.5rem;
+  margin-top: -5px;
+}
+.request-btn{
+  font-size: 18px;
+  margin-top: 2.4rem; 
+  width: 250px; 
+  height: 70px;
+}
+.bg-grey{
+  background-color: #f7f7f7;
+}
+.custom-request-input{
+  width: 430px;
+  height: 50px;
+  font-size: 17px; 
+  padding: 1rem; 
+  border-color: white;
+}
+.custom-request-message{
+  width: 430px;
+  border-color: #f7f7f7; 
+  padding: 1rem;
+  font-size: 17px;
+}
+.partner-heading{
+  font-size: 1rem; 
+  font-weight: 500; 
+  letter-spacing: 1px;
+}
+.partner-main-heading{
+  font-size: 2.75rem;
+  font-family: sans-serif; 
+  letter-spacing: 2.5px; 
+  font-family: EB Garamond;
+}
+.text-dark-grey{
+  color: #222529;
+}
+.dark-grey{
+  color: #a9a9a9;;
+}
+.fs-15{
+  font-size: 14.7px;
+}
+.fs-17{
+  font-size: 17px;
+}
+.fs-20{
+  font-size: 20px;
+}
+.fs-23{
+  font-size: 23px;
+}
+.fs-25{
+  font-size: 25px;
+}
+.fs-44{
+  font-size: 44px;
+}
+.fs-32{
+  font-size: 32px;
+}
+
+.extensive-container{
+  border-top: 1px solid #dce1e6;
+}
+.extensive-container-heading{
+  font-size: 2.6rem; 
+  font-family: Gelasio;
+}
+.custom-dark-grey{
+  color: #777777;
+}
+.fs-16{
+  font-size: 16px;
+}
+.bg-brown{
+  background-color: #4d3f29;
+}
+.lightgrey{
+  color: #ffffffcc;
+}
+.custom-consultaion-btn{
+  width: 250px; 
+  height: 60px;
+}
+.--bs-gutter-x{
+  --bs-gutter-x: -5rem;
+}.success-card{
+  width: 432px; 
+  height: 151px;
+  margin-top: -5rem; 
+  padding: 2rem 0 0 2rem;
+}
+.profile-btn{
+  margin-left: -18.3rem;
+}
+.profile-card-title{
+margin-top: -1.5rem; 
+font-family: Vollkorn; 
+color: #212529;
+}
+.gap-blog{
+  gap: 4rem;
+}
+.blog-card-p{
+  font-family: Poppins,sans-serif;
+  margin-top: -3rem;
+}
+.blog-btn{
+  padding: 20px 20px; 
+  margin-top: -0.8rem;
+  width: 168px; 
+  height: 62px;
+}
+.footer-bg{
+  background-color: #212529;
+}
+.footer-btn-link{
+  margin-top: -1.5rem;
+  margin-left: -0.8rem;
+}
+.copyright-pt{
+  padding-top: 2rem;
+}
+.footer{
+  background-color: #1c2023; 
+  height: 90px;
+}
+/* Small screens (default styles for mobile, under 412px) */
+.porto {
+  font-size: 3.1rem;
+}
+.porto-sub {
+  font-size: 10px;
+}
+.porto-sub-sub {
+  font-size: 9px;
+}
+
+.img-2{
+    width: 350px;
+  height:250px;
+  margin-left: -80px;
+  margin-top: 20px;
+}
+  .img-3{
+  height: 1000px;
+  object-fit: cover;
+}
+.test-carousel-caption{
+  margin-bottom: -5rem;
+  padding-bottom: 30rem;
+}
+.question-card{
+  height: 820px; 
+  margin-top: 80rem;
+  margin-bottom: -50rem;
+}
+.testimonial {
+    height: 78% !important;
+}
+.test-container{
+  margin-top: 30rem;
+}
+.custom-accordion-width {
+    width: 390px !important;
+    margin-left: 0rem;
+  }
+  .custom-question-accordion-width{
+  width: 292px; 
+  margin-left: 3rem; 
+  margin-top: 1rem;
+}
+.partner-card{
+  width: 340px; 
+  height: 400px; 
+  margin-top: 15rem;
+}
+.partner-card-img-top{
+  height: 183px;
+  margin-top: -1px; 
+  width: 340px; 
+  margin-left: -0.78rem;
+}
+.contact-container{
+  width: 399px;
+}
+.img-fluid {
+  width: 50%;
+}
+.img-fluid-success{
+  width: 84%;
+}
+.success-card{
+width: 85%;
+margin-top:-3rem;
+margin-left: 1.83rem;
+height: 170px;
+}
+.success-btn-link{
+  margin-left: -11.5rem;
+}
+.--bs-gutter-x {
+    --bs-gutter-x: 0rem;
+}
+.blog-card{
+  width: 380px; 
+  height: 380px;
+}
+.img-4{
+  width: 379px;
+}
+.custom-blog-card{
+  margin-top: -3.3rem;
+  margin-left: -1rem;
+  color: #212529; 
+  font-size: 23px;
+}
+.blog-card-btn-link{
+  margin-top: -5rem;
+  margin-left: -12.5rem;
+}
+.img-1{
+  height: 600px; 
+  object-fit: cover;
+}
+.request-btn-top{
+  margin-left: 6rem;
+}
+#contact {
+  scroll-margin-top: 80px; /* or whatever your header height is */
+}
+#blog {
+  scroll-margin-top: 80px; /* or whatever your header height is */
+}
+#attorney {
+  scroll-margin-top: 80px; /* or whatever your header height is */
+}
+#story {
+  scroll-margin-top: 80px; /* or whatever your header height is */
+}
+#about {
+  scroll-margin-top: 80px; /* or whatever your header height is */
+}
+
+@media (min-width: 992px) {
+    .col-lg-3 {
+        flex: 0 0 auto;
+        width: 20%;
+    }
+}
+/* Large screens: 768px and above */
+@media screen and (min-width: 768px) {
+  .porto {
+    font-size: 5rem;
+  }
+  .porto-sub {
+    font-size: 14px;
+  }
+  .porto-sub-sub {
+    font-size: 12px;
+  }
+  
+  .img-2{
+    width: 494px;
+    height: auto;
+    margin-left: 0px;
+  margin-top: 0px;
+}
+.service-pic{
+  width: 700px; 
+  height: 300px; 
+  margin-left: -32rem; 
+  margin-right: 5rem; 
+  margin-top: 1rem; 
+  z-index: -2;
+  margin-bottom: 2rem; 
+  background-color: #ad9263;
+}
+.img-3{
+  height: 700px; 
+  object-fit: cover;
+}
+.test-carousel-caption{
+  margin-bottom: -5rem;
+  padding-bottom: 22rem;
+}
+.question-card{
+  height: 678px; 
+  margin-top: 50rem;
+  margin-bottom: -50rem;
+}
+.testimonial {
+    height: 71% !important;
+}
+.custom-accordion-width {
+    width: 600px !important;
+        margin-left: 0rem;
+
+  }
+  .test-container{
+  margin-top: 18rem;
+}.custom-question-accordion-width{
+  width: 600px; 
+  margin-left: 3rem; 
+  margin-top: 1rem;
+}
+.partner-card{
+  width: 240px; 
+  height: 400px; 
+  margin-top: 12.3rem;
+}
+.partner-card-img-top{
+  height: 183px;
+  margin-top: -1px; 
+  width: 240.5px; 
+  margin-left: -0.78rem;
+}
+.contact-container{
+  width: 1000px;
+}
+.img-fluid .success-card{
+  width: 100%;
+}
+.img-fluid-success{
+  width: 84%;
+}
+.--bs-gutter-x {
+    --bs-gutter-x: -5rem;
+}
+.success-card{
+width: 86%;
+margin-top:-3rem;
+margin-left: 1.83rem;
+height: 170px;
+}
+.success-btn-link{
+  margin-left: -30rem;
+}
+.custom-blog-card{
+  margin-top: -3.3rem;
+  margin-left: -8.5rem;
+  color: #212529; 
+  font-size: 23px;
+}
+.blog-card{
+  width: 492px; 
+  height: 380px;
+}
+.img-4{
+  width: 491px;
+}
+.blog-card-btn-link{
+  margin-top: -5rem;
+  margin-left: -19.5rem;
+}
+.img-1{
+  height: 850px; 
+  object-fit: cover;
+}
+.request-btn-top{
+  margin-left: 0rem;
+}
+}
+
+/* Extra large screens: 1200px and above */
+@media screen and (min-width: 1200px) {
+  .porto {
+    font-size: 5.5rem;
+  }
+  .porto-sub {
+    font-size: 23px;
+  }
+  .porto-sub-sub {
+    font-size: 17px;
+  }
+  
+  .img-2{
+    width: 494px;
+    height: auto;
+    margin-left: 0px;
+  margin-top: 0px;
+  }
+  .service-pic{
+  width: 700px; 
+  height: 300px; 
+  margin-left: -32rem; 
+  margin-right: 5rem; 
+  margin-top: 1rem; 
+  z-index: -2;
+  margin-bottom: 2rem; 
+  background-color: #ad9263;
+}
+.img-3{
+height: 700px;
+object-fit: cover;
+}
+.test-carousel-caption{
+  margin-bottom: -5rem;
+  padding-bottom: 22rem;
+}
+.question-card{
+  height: 678px; 
+  margin-top: 50rem;
+  margin-bottom: -50rem;
+}
+.testimonial {
+    height: 71% !important;
+}
+.custom-accordion-width {
+    width: 450px !important;
+        margin-left: 0rem;
+  }
+  .test-container{
+  margin-top: 18rem;
+}
+.custom-question-accordion-width{
+  width: 450px; 
+  margin-left: 3rem; 
+  margin-top: 1rem;
+}
+.partner-card{
+  width: 240px; 
+  height: 400px; 
+  margin-top: 12.3rem;
+}
+.partner-card-img-top{
+  height: 183px;
+  margin-top: -1px; 
+  width: 240.5px; 
+  margin-left: -0.78rem;
+}
+.contact-container{
+  width: 1200px;
+}
+.img-fluid {
+  width: 50%;
+}
+.img-fluid-success{
+  width: 100%;
+}
+.success-card{
+width: 100%;
+margin-top:-5rem;
+margin-left: 0rem;
+height: 150px;
+}
+.--bs-gutter-x {
+    --bs-gutter-x: -5rem;
+}
+.success-btn-link{
+  margin-left: -20.5rem;
+}
+.custom-blog-card{
+  margin-top: -3.3rem;
+  margin-left: -8.3rem;
+  color: #212529; 
+  font-size: 23px;
+}
+.blog-card{
+  width: 492px; 
+  height: 380px;
+}
+.img-4{
+  width: 491px;
+}
+.blog-card-btn-link{
+  margin-top: -5rem;
+  margin-left: -19.5rem;
+}
+.about-card{
+  padding-top: -10rem;
+}
+.img-1{
+  height: 850px; 
+  object-fit: cover;
+}
+.request-btn-top{
+  margin-left: 0rem;
+}
+  }
+ 

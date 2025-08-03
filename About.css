@@ -1,0 +1,82 @@
+.img-1{
+    height: 249px;
+}
+.overlay-1{
+    height: 250px;
+    margin-top: 8rem;
+}
+.carousel-1{
+    margin-bottom: 18rem;
+}
+.carousel-2{
+    margin-bottom: -1rem;
+}
+.about{
+  font-size: 2.5rem; 
+  font-weight: 700; 
+  font-family: sans-serif; 
+  letter-spacing: 2.5px; 
+  font-family: EB Garamond;
+}
+.line-1{
+    line-height: 30px;
+    font-size: 1.2rem;
+}
+.test-carousel-caption{
+    height: 36%;
+    margin-top: 5rem;
+}
+.history-card{
+    width: 361px;
+}
+.card-about{
+    width: 358px;
+}
+.attorney-card{
+    width: 360px;
+}
+.attorney-img{
+    width: 360px;
+}
+.btn-request{
+    margin-left: 16rem;
+    margin-top: 3rem;
+}
+.custom-card-blog{
+  margin-top: -3.3rem;
+  margin-left: 1rem;
+  color: #212529; 
+  font-size: 23px;
+}
+.card-blog-btn-link{
+  margin-top: -5rem;
+  margin-left: -36.5rem;
+}
+.blog-img{
+    width: 744px;
+}
+.card-blog{
+    width: 743px;
+}
+.about-blog{
+      font-family: EB Garamond;
+}
+.fs-18{
+    font-size: 18px;
+}
+.custom-contact-p{
+    margin-bottom: 0rem;
+}
+.question-card-contact{
+  height: 694px; 
+  margin-top: 4rem;
+  margin-bottom: -50rem;
+}
+.custom-contact-accordion-width{
+  width: 430px; 
+  height: 678px;
+   margin-top: 1rem;
+   border-color: white; 
+   margin-bottom: 7rem; 
+   margin-left: 6rem;
+}
